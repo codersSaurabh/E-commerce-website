@@ -1,0 +1,51 @@
+{% extends 'shop/basic.html' %}
+{% block css %}
+#popcart{
+display:none;
+}
+{% endblock %}
+{% block title %}Title of About{% endblock %}
+{% block body %}
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3 mb-3">Welcome to- Infinity Finds</h1>
+        <p>
+            Welcome to Infinity Finds, where the world of online shopping meets convenience and style! At Infinity Finds, we pride ourselves on offering a curated selection of high-quality products that cater to your every need. Whether you're searching for the latest fashion trends, innovative gadgets, or home essentials, our diverse range of products is designed to enhance your lifestyle.
+            
+            With a commitment to providing a seamless and enjoyable shopping experience, we strive to make your online journey with us memorable. Our user-friendly interface, secure payment options, and efficient delivery services ensure that your satisfaction is our top priority.
+            
+            At Infinity Finds, we believe in the power of choice. Our platform is your go-to destination for discovering new and exciting products that align with your unique preferences. Join us on this digital shopping adventure, where quality meets affordability, and where your satisfaction is the heartbeat of our business.
+            
+            Thank you for choosing Infinity Finds. Happy shopping
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Shop</h2>
+          <p>The shop page of our online store provides a user-friendly interface with clear product listings, concise details, and easy navigation. Users can quickly browse through products, and add items to their cart seamlessly. The responsive design ensures a smooth experience, making online shopping efficient and enjoyable.Each product listing includes an "Add to Cart" button, streamlining the shopping process. Interactive elements,enhance user engagement.</p>
+            <p><a class="btn btn-secondary" href="/" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Tracker</h2>
+          <p>The tracker page on our website offers a streamlined experience for users to monitor their orders. With a simple interface, users can easily input their order tracking information to receive real-time updates on the status and location of their packages. The minimalist design prioritizes clarity and ease of use. This page enhances the overall customer experience by providing a quick and efficient way for users to stay informed about their orders in transit.</p>
+           <p><a class="btn btn-secondary" href="/tracker/" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Contact</h2>
+          <p>Our contact page provides a straightforward platform for users to address their queries or concerns. Featuring a user-friendly form, customers can submit their questions, feedback, or issues, streamlining communication. The minimalist design ensures easy navigation, and a confirmation message upon submission assures users that their queries are received. This contact interface aims to enhance customer support by providing a quick and hassle-free way for users to communicate.<p>
+            <a class="btn btn-secondary" href="/contact/" role="button">View details »</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+  </main>
+{% endblock %}
